@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg{
+    width: 100%;
+    height: 70vh;
+    background-image: url(https://images03.nicepage.io/c461c07a441a5d220e8feb1a/6ba6351e480757c3a03abdad/fgd-min.jpg);
+    background-size: cover;
+    background-position: 10px;
+
+}
+.employee{
+    display: flex;
+    width: 80%;
+    height: 500px;
+    margin: auto;
+
+      
+}
+.img{
+    position: relative;
+    top:-102px;
+    left: 50px;
+    margin-left: 20px;
+    width: 300px;
+    height: 300px;
+    background-color: white;
+  }
+.img img{
+    width: 150px;
+    border-radius: 50%;
+    margin-left: 75px;
+
+}
+.font{
+    text-align: center;
+}
+.media{
+    display:inline-block;
+    padding: 12px;
+    margin-left: 20px;
+}
